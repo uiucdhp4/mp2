@@ -1,0 +1,41 @@
+.list-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-card {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #d9e2ec;
+  background: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.list-card:hover {
+  border-color: #1976b9;
+}
+
+.list-card-image {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 6px;
+}
+
+.list-card-content {
+  flex: 1;
+}
+
+.list-card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #0b1f33;
+}
+
+.list-card p {
+  margin: 8px 0;
+  color: #526575;
+}
